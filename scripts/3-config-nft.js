@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 
 (async () => {
     try {
-        const editionDrop = await sdk.getContract("0x0043C727F639972502D2c281d3dfB5bD874263d0", "edition-drop");
+        const editionDrop = await sdk.getContract("0x3f78A713d6259EaaF41638139D881516E0De1a89", "edition-drop");
         await editionDrop.createBatch([
             {
                 name: "Leaf Village Headband",
